@@ -17,7 +17,7 @@ class finalui extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => mainpage()),
+                    MaterialPageRoute(builder: (context) => detailpage()),
                   );
                 },
                 icon: Icon(Icons.arrow_back_ios_outlined)),
